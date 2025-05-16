@@ -6,10 +6,11 @@
 
 }
 body {
-    min-height: 100vh
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a}
+    color: #3a3a3a;
+}
     
 header {
     background-color: lightcoral;
@@ -18,8 +19,8 @@ header {
 
 main {
     background-color: lightblue;
-    <!-- Make main element take up the remaining space to push footer down -->
-    flex: 1 0 auto
+    /* Make main element take up the remaining space to push footer down */
+    flex: 1 0 auto;
 }
 footer {
     background-color: orange;
