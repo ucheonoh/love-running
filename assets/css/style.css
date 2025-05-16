@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
     
 header {
@@ -25,3 +29,5 @@ main {
 footer {
     background-color: orange;
 }
+
+  
