@@ -83,8 +83,19 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
-footer {
-    background-color: orange;
+/*footer*/
+#social-networks {
+    text-align:center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i{
+    font-size: 160%;
+    color: #3a3a3a;
+    padding: 5%
 }
 
 /*media query (768px+)*/
