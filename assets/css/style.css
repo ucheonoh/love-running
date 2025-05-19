@@ -34,10 +34,10 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1,h2,h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    text-decoration: none;
+   
     letter-spacing: 2px;
     color: #252525;
     }
@@ -88,12 +88,32 @@ main {
    width:100%;
    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
+/*reasons section*/
 #reasons {
     width:90%;
-    margin: 20px auto;}
+    margin: 20px auto;
+}
+
 #reasons h2 {
     font-size: 280%;
-    margin-bottom:20px
+    margin-bottom:20px;
+    text-align: center;
+}
+
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+#benefits hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+#benefits p{
+    padding: 0 20px;
 }
     /*footer*/
 #social-networks {
