@@ -88,7 +88,14 @@ main {
    width:100%;
    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
-/*footer*/
+#reasons {
+    width:90%;
+    margin: 20px auto;}
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom:20px
+}
+    /*footer*/
 #social-networks {
     text-align:center;
     padding: 20px 0;
