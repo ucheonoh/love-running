@@ -37,10 +37,12 @@ header a {
 h1,h2,h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-   
-    letter-spacing: 2px;
+   letter-spacing: 2px;
     color: #252525;
     }
+.hidden-heading {
+    display: none;
+}
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
